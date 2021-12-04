@@ -1,0 +1,233 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-color: #131419;
+  display: flex;
+  justify-content: center;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.button1{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+   12px 12px 16px 0 rgba(0,0,0,.51),
+   -8px -8px 12px 0 rgba(255,255,255,.05);
+  border-radius: 50px;
+  height: 10vh;
+  margin-top: 2%;
+  margin-left: 2%;
+  color: white;
+  border: none;
+  justify-content: center;
+  width: 10vh;
+}
+
+.button1:active{
+  position: relative;
+  top: 1px;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, .51) inset,
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.05) inset;
+}
+
+.icon-home{
+  opacity: 55%;
+}
+
+.title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  opacity: 80%;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 1%;
+  color: white;
+}
+
+.title h1{
+  font-size: 90px;
+}
+
+.mac-left{
+  margin-top: 10%;
+  height: 100vh;
+}
+
+.mac-left img{
+  float: right;
+  height: 100%;
+}
+
+.mac-left h2{
+  margin-top: 10%;
+  width: 100%;
+  float: left;
+}
+
+.mac-left p{
+  float: left;
+  width: 49%;
+}
+
+.mac-left-text{
+  font-size: 20px;
+  margin-left: 8%;
+  margin-top: -4%;
+  opacity: 75%;
+}
+
+.mac-left-element1{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+   12px 12px 16px 0 rgba(0,0,0,.51),
+   -8px -8px 12px 0 rgba(255,255,255,.05);
+  border-radius: 50px;
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  margin-top: 10%;
+  float: left;
+  margin-left: 4%;
+  width: 80%;
+}
+
+.mac-left-element2{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, .51) inset,
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.05) inset;
+  border-radius: 50px;
+  display: flex;
+  height: 44vh;
+  margin-top: 12%;
+  margin-left: 60%;
+  justify-content: center;
+  width: 32.5%;
+}
+
+.mac-right{
+  height: 100vh;
+  width: 100%;
+}
+
+.mac-right img{
+  float: left;
+  height: 100%;
+}
+
+.mac-right h2,p{
+  width: 100%;
+  float: right;
+}
+
+
+
+.mac-right-text{
+  font-size: 20px;
+  margin-top: -37%;
+  margin-right: 6%;
+  margin-left: 47%;
+  opacity: 75%;
+}
+
+.mac-right-element1{
+  background-color: #131419;
+  box-shadow:
+   12px 12px 16px 0 rgba(0,0,0,.51),
+   -8px -8px 12px 0 rgba(255,255,255,.05);
+  border-radius: 50px;
+  display: flex;
+  height: 85vh;
+  justify-content: center;
+  margin-top: 10%;
+  float: right;
+  margin-right: 4%;
+  width: 80%;
+}
+
+.mac-right-element2{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, .51) inset,
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.05) inset;
+  border-radius: 50px;
+  display: flex;
+  margin-top: 12%;
+  margin-left: 5%;
+  height: 44vh;
+  justify-content: center;
+  width: 32.5%;
+}
+
+.button-apple{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+   12px 12px 16px 0 rgba(0,0,0,.51),
+   -8px -8px 12px 0 rgba(255,255,255,.05);
+  border-radius: 50px;
+  height: 80%;
+  margin-top: 10%;
+  margin-left: 2%;
+  color: white;
+  border: none;
+  justify-content: center;
+  width: 45%;
+}
+
+.button-apple:active{
+  position: relative;
+  top: 1px;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, .51) inset,
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.05) inset;
+}
+
+.icon-apple{
+  opacity: 55%;
+}
+
+.up-link{
+  height: 10%;
+  width: 10%;
+}
+
+.up-link a{
+  text-decoration: none;
+}
+
+.button-up{
+  align-items: center;
+  background-color: #131419;
+  box-shadow:
+   12px 12px 16px 0 rgba(0,0,0,.51),
+   -8px -8px 12px 0 rgba(255,255,255,.05);
+  border-radius: 50px;
+  height: 10vh;
+  color: white;
+  margin-left: 5%;
+  border: none;
+  justify-content: center;
+  width: 10vh;
+}
+
+.button-up:active{
+  position: relative;
+  top: 1px;
+  box-shadow:
+    12px 12px 16px 0 rgba(0, 0, 0, .51) inset,
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.05) inset;
+}
+
+.icon-up{
+  opacity: 55%;
+}
